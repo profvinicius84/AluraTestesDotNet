@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Redirecting...</title>
+    <script type="text/javascript">
+        // Obtém o caminho completo (ex: /4786-aspnetcore-blazor/Playlist)
+        var path = window.location.pathname;
+        // Encontra a base do seu repositório (ex: /4786-aspnetcore-blazor)
+        // e redireciona para essa base, permitindo que o Blazor lide com o restante do caminho
+        var baseHref = window.location.origin + path.substring(0, path.lastIndexOf('/')) + '/';
+        window.location.replace(baseHref);
+    </script>
+</head>
+<body>
+    If you are not redirected automatically, follow this <a href="/">link</a>.
+</body>
+</html>
