@@ -23,5 +23,5 @@ jobs:
     - name: Salvar relatório
       uses: actions/upload=artifact@v4
       with:
-        name: resultados-Testes
-        path: **/resultados.trx
+        name: resultados-testes
+        path: /resultados.trx
