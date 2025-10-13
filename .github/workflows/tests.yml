@@ -16,10 +16,12 @@ jobs:
           dotnet-version: '9.0.x'
 
       - name: Restaurar Dependências
-        run: dotnet restore
+        run: dotnet restore ScreenSound.sln
+        working-directory: ScreenSound
 
       - name: Executar Testes
-        run: dotnet test --logger "trx;LogFileName=resultado.trx"
+        run: dotnet test ScreenSound.sln --logger "trx;LogFileName=resultado.trx"
+        working-directory: ScreenSound
 
       - name: Salvar relatório
         uses: actions/upload-artifact@v4
