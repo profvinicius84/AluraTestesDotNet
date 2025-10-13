@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Novo Perfil",
+    "Projects": [
+      {
+        "Path": "ScreenSound.API\\ScreenSound.API.csproj",
+        "Action": "StartWithoutDebugging"
+      },
+      {
+        "Path": "ScreenSound.Tests.Integracao\\ScreenSound.Tests.Integracao.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

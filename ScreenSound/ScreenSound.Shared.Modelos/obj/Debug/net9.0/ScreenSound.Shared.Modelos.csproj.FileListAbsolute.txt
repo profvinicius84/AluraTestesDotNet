@@ -1,0 +1,12 @@
+C:\Users\adria\Source\Repos\4786-aspnetcore-blazor\ScreenSound.Shared.Modelos\bin\Debug\net9.0\ScreenSound.Shared.Modelos.deps.json
+C:\Users\adria\Source\Repos\4786-aspnetcore-blazor\ScreenSound.Shared.Modelos\bin\Debug\net9.0\ScreenSound.Shared.Modelos.dll
+C:\Users\adria\Source\Repos\4786-aspnetcore-blazor\ScreenSound.Shared.Modelos\bin\Debug\net9.0\ScreenSound.Shared.Modelos.pdb
+C:\Users\adria\Source\Repos\4786-aspnetcore-blazor\ScreenSound.Shared.Modelos\obj\Debug\net9.0\ScreenSound.Shared.Modelos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adria\Source\Repos\4786-aspnetcore-blazor\ScreenSound.Shared.Modelos\obj\Debug\net9.0\ScreenSound.Shared.Modelos.AssemblyInfoInputs.cache
+C:\Users\adria\Source\Repos\4786-aspnetcore-blazor\ScreenSound.Shared.Modelos\obj\Debug\net9.0\ScreenSound.Shared.Modelos.AssemblyInfo.cs
+C:\Users\adria\Source\Repos\4786-aspnetcore-blazor\ScreenSound.Shared.Modelos\obj\Debug\net9.0\ScreenSound.Shared.Modelos.csproj.CoreCompileInputs.cache
+C:\Users\adria\Source\Repos\4786-aspnetcore-blazor\ScreenSound.Shared.Modelos\obj\Debug\net9.0\ScreenSound.Shared.Modelos.sourcelink.json
+C:\Users\adria\Source\Repos\4786-aspnetcore-blazor\ScreenSound.Shared.Modelos\obj\Debug\net9.0\ScreenSound.Shared.Modelos.dll
+C:\Users\adria\Source\Repos\4786-aspnetcore-blazor\ScreenSound.Shared.Modelos\obj\Debug\net9.0\refint\ScreenSound.Shared.Modelos.dll
+C:\Users\adria\Source\Repos\4786-aspnetcore-blazor\ScreenSound.Shared.Modelos\obj\Debug\net9.0\ScreenSound.Shared.Modelos.pdb
+C:\Users\adria\Source\Repos\4786-aspnetcore-blazor\ScreenSound.Shared.Modelos\obj\Debug\net9.0\ref\ScreenSound.Shared.Modelos.dll
