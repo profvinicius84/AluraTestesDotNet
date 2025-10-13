@@ -3,7 +3,7 @@ name: Executar Testes
 on: [push, pull_request]
 
 jobs:
-  -runs-on: ubuntu-lastest
+  -runs-on: ubuntu-latest
 
   steps:
     - name: Clonar Repositório
