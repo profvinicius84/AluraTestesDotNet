@@ -3,25 +3,26 @@ name: Executar Testes
 on: [push, pull_request]
 
 jobs:
-  -runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
 
-  steps:
-    - name: Clonar Repositório
-    - uses: actions/checkout@v4
+    steps:
+      - name: Clonar Repositório
+        uses: actions/checkout@v4
 
-    - name: Instalar .Net
-    - uses: actions/setup-dotnet@v4
-      with:
-       dotnet-version: '9.0.x'
+      - name: Instalar .Net
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'
 
-    - name: Restaurar Dependências
-      run: dotnet restore
+      - name: Restaurar Dependências
+        run: dotnet restore
 
-    - name: Executar Testes
-      run: dotnet test --logger "trx;LogFileName=resultado.trx"
+      - name: Executar Testes
+        run: dotnet test --logger "trx;LogFileName=resultado.trx"
 
-    - name: Salvar relatório
-      uses: actions/upload=artifact@v4
-      with:
-        name: resultados-testes
-        path: /resultados.trx
+      - name: Salvar relatório
+        uses: actions/upload-artifact@v4
+        with:
+          name: resultados-testes
+          path: resultado.trx
