@@ -63,4 +63,3 @@ jobs:
         with:
           name: relatorio-cobertura
           path: ScreenSound.Tests.Integracao/RelatorioCobertura
-        working-directory: ScreenSound
