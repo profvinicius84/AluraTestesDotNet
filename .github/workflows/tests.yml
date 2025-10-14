@@ -27,7 +27,8 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: resultados-testes
-          path: ScreenSound/resultado.trx
+          path: resultado.trx
+        working-directory: ScreenSound
 
       - name: Executar testes e gerar cobertura
         run: dotnet test ScreenSound.sln --collect:"XPlat Code Coverage" --filter Categoria=Integração
