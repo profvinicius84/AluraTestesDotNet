@@ -39,6 +39,7 @@ jobs:
         run: |
           $file = Get-ChildItem -Path "ScreenSound.Tests.Integracao\TestResults" -Recurse -Filter "coverage.cobertura.xml" | Select-Object -First 1
           echo "coverage_file=$($file.FullName)" >> $env:GITHUB_ENV
+        working-directory: ScreenSound
 
       - name: Instalar ReportGenerator
         run: dotnet tool install --global dotnet-reportgenerator-globaltool
