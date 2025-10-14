@@ -10,32 +10,28 @@ jobs:
       - name: Clonar Repositório
         uses: actions/checkout@v4
 
-      - name: Instalar .Net
+      - name: Instalar .NET
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '9.0.x' 
+          dotnet-version: '9.0.x'
 
       - name: Restaurar Dependências
         run: dotnet restore ScreenSound.sln
-        working-directory: ScreenSound
 
       - name: Executar Testes
         run: dotnet test ScreenSound.sln --logger "trx;LogFileName=resultado.trx" --filter Categoria=Integração
-        working-directory: ScreenSound
 
       - name: Upload do artefato de resultado dos testes
         uses: actions/upload-artifact@v4
         with:
           name: resultados-testes
-          path: ScreenSound/resultado.trx
+          path: resultado.trx
 
       - name: Executar testes e gerar cobertura
         run: dotnet test ScreenSound.sln --collect:"XPlat Code Coverage" --filter Categoria=Integração
-        working-directory: ScreenSound
 
       - name: Listar arquivos de cobertura
         run: ls ScreenSound.Tests.Integracao/TestResults/**/coverage.cobertura.xml
-        working-directory: ScreenSound
 
       - name: Localizar arquivo de cobertura
         id: cobertura
@@ -43,7 +39,6 @@ jobs:
         run: |
           $file = Get-ChildItem -Path "ScreenSound.Tests.Integracao/TestResults" -Recurse -Filter "coverage.cobertura.xml" | Select-Object -First 1
           echo "coverage_file=$($file.FullName)" >> $env:GITHUB_ENV
-        working-directory: ScreenSound
 
       - name: Instalar ReportGenerator
         run: dotnet tool install --global dotnet-reportgenerator-globaltool
@@ -51,12 +46,9 @@ jobs:
       - name: Gerar relatório de cobertura
         run: |
           reportgenerator -reports:"${{ env.coverage_file }}" -targetdir:"ScreenSound.Tests.Integracao/RelatorioCobertura" -reporttypes:Html
-        working-directory: ScreenSound
 
       - name: Listar arquivos do relatório
-        run: Get-ChildItem -Path "ScreenSound.Tests.Integracao/RelatorioCobertura" -Recurse
-        shell: pwsh
-        working-directory: ScreenSound
+        run: ls ScreenSound.Tests.Integracao/RelatorioCobertura
 
       - name: Upload do artefato do relatório de cobertura
         uses: actions/upload-artifact@v4
