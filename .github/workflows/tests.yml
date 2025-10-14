@@ -37,7 +37,7 @@ jobs:
         id: cobertura
         shell: pwsh
         run: |
-          $file = Get-ChildItem -Path "ScreenSound.Tests.Integracao\TestResults" -Recurse -Filter "coverage.cobertura.xml" | Select-Object -First 1
+          $file = Get-ChildItem -Path "ScreenSound.Tests.Integracao/TestResults" -Recurse -Filter "coverage.cobertura.xml" | Select-Object -First 1
           echo "coverage_file=$($file.FullName)" >> $env:GITHUB_ENV
         working-directory: ScreenSound
 
@@ -46,8 +46,8 @@ jobs:
 
       - name: Gerar relatório de cobertura
         run: |
-          reportgenerator -reports:"$env:coverage_file" -targetdir:"ScreenSound.Tests.Integracao/RelatorioCobertura" -reporttypes:Html
-          working-directory: ScreenSound
+          reportgenerator -reports:"${{ env.coverage_file }}" -targetdir:"ScreenSound.Tests.Integracao/RelatorioCobertura" -reporttypes:Html
+        working-directory: ScreenSound
 
       - name: Upload do artefato do relatório de cobertura
         uses: actions/upload-artifact@v4
