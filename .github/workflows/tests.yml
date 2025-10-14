@@ -47,6 +47,7 @@ jobs:
       - name: Gerar relatório de cobertura
         run: |
           reportgenerator -reports:"$env:coverage_file" -targetdir:"ScreenSound.Tests.Integracao/RelatorioCobertura" -reporttypes:Html
+          working-directory: ScreenSound
 
       - name: Upload do artefato do relatório de cobertura
         uses: actions/upload-artifact@v4
