@@ -19,6 +19,7 @@ namespace ScreenSound.Tests.Integracao
         }
 
         [Fact]
+        [Trait("Categoria", "Integração")]
         public async Task GetArtistasAsync_DeveChamarEndpointECapturarLista()
         {
             // Arrange
@@ -61,10 +62,6 @@ namespace ScreenSound.Tests.Integracao
             }
         }
     }
-
-
-
-
 
 
 
