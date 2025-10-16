@@ -1,0 +1,28 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/AluraTestesDotNet/CopilotIndices/17.14.1231.31060
+/.vs/AluraTestesDotNet/FileContentIndex
+/Aula 1 - Calculadora/CalculadoraApp.Testes/bin/Debug/net8.0/CoverletSourceRootsMapping_CalculadoraApp.Testes
+/Aula 1 - Calculadora/CalculadoraApp.Testes/bin/Release/net8.0/CoverletSourceRootsMapping_CalculadoraApp.Testes
+/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/CalculadoraApp.AssemblyInfo.cs
+/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/CalculadoraApp.AssemblyInfoInputs.cache
+/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/CalculadoraApp.assets.cache
+/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/CalculadoraApp.GeneratedMSBuildEditorConfig.editorconfig
+/.vs/ProjectSettings.json
+/.vs/slnx.sqlite
+/Aula 1 - Calculadora/CalculadoraApp/obj/Release/net8.0/CalculadoraApp.AssemblyInfo.cs
+/Aula 1 - Calculadora/CalculadoraApp/obj/Release/net8.0/CalculadoraApp.AssemblyInfoInputs.cache
+/Aula 1 - Calculadora/CalculadoraApp/obj/Release/net8.0/CalculadoraApp.assets.cache
+/Aula 1 - Calculadora/CalculadoraApp/obj/Release/net8.0/CalculadoraApp.GeneratedMSBuildEditorConfig.editorconfig
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/CalculadoraApp.Testes.AssemblyInfo.cs
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/CalculadoraApp.Testes.AssemblyInfoInputs.cache
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/CalculadoraApp.Testes.assets.cache
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/CalculadoraApp.Testes.csproj.AssemblyReference.cache
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/CalculadoraApp.Testes.GeneratedMSBuildEditorConfig.editorconfig
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Release/net8.0/CalculadoraApp.Testes.AssemblyInfo.cs
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Release/net8.0/CalculadoraApp.Testes.AssemblyInfoInputs.cache
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Release/net8.0/CalculadoraApp.Testes.assets.cache
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Release/net8.0/CalculadoraApp.Testes.csproj.AssemblyReference.cache
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Release/net8.0/CalculadoraApp.Testes.GeneratedMSBuildEditorConfig.editorconfig
