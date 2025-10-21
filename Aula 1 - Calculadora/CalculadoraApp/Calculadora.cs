@@ -1,5 +1,3 @@
-using System;
-
 /// <summary>
 /// Classe Calculadora fornece métodos para operações matemáticas básicas entre dois números.
 /// </summary>
