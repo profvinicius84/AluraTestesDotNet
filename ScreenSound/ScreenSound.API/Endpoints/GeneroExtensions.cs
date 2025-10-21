@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ScreenSound.Banco;
-using ScreenSound.Shared.Modelos.Modelos;
+using ScreenSound.Modelos;
 using ScreenSound.Shared.Modelos.Requests;
 using ScreenSound.Shared.Modelos.Response;
 

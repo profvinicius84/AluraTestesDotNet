@@ -50,6 +50,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenSound.WebAssembly", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenSound.Tests.Integracao", "ScreenSound.Tests.Integracao\ScreenSound.Tests.Integracao.csproj", "{D5C3D4BC-187B-4261-A55D-9524ABC64755}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenSound.Tests.Unitarios", "ScreenSound.Tests.Unitarios\ScreenSound.Tests.Unitarios.csproj", "{DC60FC07-7F59-53BB-F19E-90CEDD599DD9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -76,6 +78,10 @@ Global
 		{D5C3D4BC-187B-4261-A55D-9524ABC64755}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5C3D4BC-187B-4261-A55D-9524ABC64755}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5C3D4BC-187B-4261-A55D-9524ABC64755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC60FC07-7F59-53BB-F19E-90CEDD599DD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC60FC07-7F59-53BB-F19E-90CEDD599DD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC60FC07-7F59-53BB-F19E-90CEDD599DD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC60FC07-7F59-53BB-F19E-90CEDD599DD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
