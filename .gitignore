@@ -329,3 +329,7 @@
 /ScreenSound/ScreenSound.WebAssembly/obj/ScreenSound.WebAssembly.csproj.nuget.dgspec.json
 /ScreenSound/ScreenSound.WebAssembly/obj/ScreenSound.WebAssembly.csproj.nuget.g.props
 /ScreenSound/ScreenSound.WebAssembly/obj/ScreenSound.WebAssembly.csproj.nuget.g.targets
+/ScreenSound/ScreenSound.API/obj
+/ScreenSound/ScreenSound.Shared.Dados/obj
+/ScreenSound/ScreenSound.Shared.Modelos/obj
+/ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0
