@@ -1,4 +1,3 @@
-﻿################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
@@ -85,3 +84,4 @@
 /Aula 1 - Calculadora/.vs/CalculadoraApp/FileContentIndex/06d17877-dea7-44d6-8746-855febe13892.vsidx
 /Aula 1 - Calculadora/.vs/CalculadoraApp/v17/.futdcache.v2
 /.vs/VSWorkspaceState.json
+/Aula 1 - Calculadora/.vs/CalculadoraApp/v17/.suo
