@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "twFP0GD0knk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\adria\\source\\repos\\AluraTestesDotNet\\Aula 1 - Calculadora\\CalculadoraApp\\CalculadoraApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\adria\\.nuget\\packages\\fluentassertions\\8.7.1\\fluentassertions.8.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

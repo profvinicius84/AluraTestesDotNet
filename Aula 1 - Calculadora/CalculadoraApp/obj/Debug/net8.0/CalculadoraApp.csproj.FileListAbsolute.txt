@@ -1,0 +1,14 @@
+C:\Users\adria\source\repos\CalculadoraApp\CalculadoraApp\obj\Debug\net8.0\CalculadoraApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adria\source\repos\CalculadoraApp\CalculadoraApp\obj\Debug\net8.0\CalculadoraApp.AssemblyInfoInputs.cache
+C:\Users\adria\source\repos\CalculadoraApp\CalculadoraApp\obj\Debug\net8.0\CalculadoraApp.AssemblyInfo.cs
+C:\Users\adria\source\repos\CalculadoraApp\CalculadoraApp\obj\Debug\net8.0\CalculadoraApp.csproj.CoreCompileInputs.cache
+C:\Users\adria\source\repos\CalculadoraApp\CalculadoraApp\bin\Debug\net8.0\CalculadoraApp.exe
+C:\Users\adria\source\repos\CalculadoraApp\CalculadoraApp\bin\Debug\net8.0\CalculadoraApp.deps.json
+C:\Users\adria\source\repos\CalculadoraApp\CalculadoraApp\bin\Debug\net8.0\CalculadoraApp.runtimeconfig.json
+C:\Users\adria\source\repos\CalculadoraApp\CalculadoraApp\bin\Debug\net8.0\CalculadoraApp.dll
+C:\Users\adria\source\repos\CalculadoraApp\CalculadoraApp\bin\Debug\net8.0\CalculadoraApp.pdb
+C:\Users\adria\source\repos\CalculadoraApp\CalculadoraApp\obj\Debug\net8.0\CalculadoraApp.dll
+C:\Users\adria\source\repos\CalculadoraApp\CalculadoraApp\obj\Debug\net8.0\refint\CalculadoraApp.dll
+C:\Users\adria\source\repos\CalculadoraApp\CalculadoraApp\obj\Debug\net8.0\CalculadoraApp.pdb
+C:\Users\adria\source\repos\CalculadoraApp\CalculadoraApp\obj\Debug\net8.0\CalculadoraApp.genruntimeconfig.cache
+C:\Users\adria\source\repos\CalculadoraApp\CalculadoraApp\obj\Debug\net8.0\ref\CalculadoraApp.dll
