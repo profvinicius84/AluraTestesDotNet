@@ -86,3 +86,32 @@
 /.vs/VSWorkspaceState.json
 /Aula 1 - Calculadora/.vs/CalculadoraApp/v17/.suo
 /Aula 1 - Calculadora/.vs/CalculadoraApp/FileContentIndex/ac6c9636-6e09-460a-928c-0b6fe89a22e4.vsidx
+/.vs/AluraTestesDotNet/config/applicationhost.config
+/.vs/AluraTestesDotNet/copilot-chat/588b309e/sessions/3238918e-aef8-41ad-b1d2-8eeec27cd87a
+/.vs/AluraTestesDotNet/copilot-chat/84baa1f2/sessions/bc8ee188-7a55-4e65-8c65-125633fd0e21
+/.vs/AluraTestesDotNet/v17/.wsuo
+/.vs/slnx.sqlite-journal
+/.vs/CopilotSnapshots
+/Aula 1 - Calculadora/.vs/CalculadoraApp
+/ScreenSound/.vs
+/ScreenSound/ScreenSound.API/obj/Release/net9.0
+/ScreenSound/ScreenSound.Shared.Dados/obj/Release/net9.0
+/ScreenSound/ScreenSound.Shared.Modelos/obj/Release/net9.0
+/ScreenSound/ScreenSound.Tests.Integracao/bin/Debug/net9.0/.msCoverageSourceRootsMapping_ScreenSound.Tests.Integracao
+/ScreenSound/ScreenSound.Tests.Integracao/bin/Debug/net9.0/CoverletSourceRootsMapping_ScreenSound.Tests.Integracao
+/ScreenSound/ScreenSound.Tests.Integracao/bin/Release/net9.0/.msCoverageSourceRootsMapping_ScreenSound.Tests.Integracao
+/ScreenSound/ScreenSound.Tests.Integracao/bin/Release/net9.0/CoverletSourceRootsMapping_ScreenSound.Tests.Integracao
+/ScreenSound/ScreenSound.Tests.Integracao/obj/Debug/net9.0/ScreenSound.Tests.Integracao.AssemblyInfo.cs
+/ScreenSound/ScreenSound.Tests.Integracao/obj/Debug/net9.0/ScreenSound.Tests.Integracao.AssemblyInfoInputs.cache
+/ScreenSound/ScreenSound.Tests.Integracao/obj/Debug/net9.0/ScreenSound.Tests.Integracao.assets.cache
+/ScreenSound/ScreenSound.Tests.Integracao/obj/Debug/net9.0/ScreenSound.Tests.Integracao.csproj.AssemblyReference.cache
+/ScreenSound/ScreenSound.Tests.Integracao/obj/Debug/net9.0/ScreenSound.Tests.Integracao.GeneratedMSBuildEditorConfig.editorconfig
+/ScreenSound/ScreenSound.Tests.Integracao/obj/Release/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs
+/ScreenSound/ScreenSound.Tests.Integracao/obj/Release/net9.0/ScreenSound.Tests.Integracao.AssemblyInfo.cs
+/ScreenSound/ScreenSound.Tests.Integracao/obj/Release/net9.0/ScreenSound.Tests.Integracao.AssemblyInfoInputs.cache
+/ScreenSound/ScreenSound.Tests.Integracao/obj/Release/net9.0/ScreenSound.Tests.Integracao.assets.cache
+/ScreenSound/ScreenSound.Tests.Integracao/obj/Release/net9.0/ScreenSound.Tests.Integracao.GeneratedMSBuildEditorConfig.editorconfig
+/ScreenSound/ScreenSound.Tests.Integracao/obj/Release/net9.0/ScreenSound.Tests.Integracao.GlobalUsings.g.cs
+/ScreenSound/ScreenSound.WebAssembly/bin/Debug/net9.0/wwwroot/_framework
+/ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/compressed
+/ScreenSound/ScreenSound.WebAssembly/obj/Release/net9.0
