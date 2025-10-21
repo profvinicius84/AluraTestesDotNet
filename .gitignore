@@ -1200,3 +1200,7 @@
 /ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/tmp-webcil/System.Xml.XPath.wasm
 /ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/tmp-webcil/System.Xml.XPath.XDocument.wasm
 /ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/tmp-webcil/WindowsBase.wasm
+/ScreenSound/ScreenSound.Tests.Integracao/obj/project.assets.json
+/ScreenSound/ScreenSound.Tests.Integracao/obj/project.nuget.cache
+/ScreenSound/ScreenSound.Tests.Integracao/obj/ScreenSound.Tests.Integracao.csproj.nuget.dgspec.json
+/ScreenSound/ScreenSound.Tests.Integracao/obj/ScreenSound.Tests.Integracao.csproj.nuget.g.props
