@@ -1,30 +1,87 @@
-﻿################################################################################
-# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/Aula 1 - Calculadora/.vs/CalculadoraApp/v17/.suo
 /.vs/AluraTestesDotNet/CopilotIndices/17.14.1231.31060
 /.vs/AluraTestesDotNet/FileContentIndex
-/.vs/ProjectSettings.json
-/Aula 1 - Calculadora/.vs/CalculadoraApp/copilot-chat/84baa1f2/sessions
-/Aula 1 - Calculadora/.vs/CalculadoraApp/CopilotIndices/17.14.1231.31060
-/Aula 1 - Calculadora/.vs/CalculadoraApp/FileContentIndex
-/Aula 1 - Calculadora/.vs/CopilotSnapshots/ABD8049C6F67F74C8029ADD8313ACA51
-/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/Calculad.DE631C74.Up2Date
+/Aula 1 - Calculadora/CalculadoraApp.Testes/bin/Debug/net8.0/CoverletSourceRootsMapping_CalculadoraApp.Testes
+/Aula 1 - Calculadora/CalculadoraApp.Testes/bin/Release/net8.0/CoverletSourceRootsMapping_CalculadoraApp.Testes
 /Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/CalculadoraApp.AssemblyInfo.cs
 /Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/CalculadoraApp.AssemblyInfoInputs.cache
 /Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/CalculadoraApp.assets.cache
-/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/CalculadoraApp.csproj.AssemblyReference.cache
 /Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/CalculadoraApp.GeneratedMSBuildEditorConfig.editorconfig
-/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/CalculadoraApp.sourcelink.json
+/.vs/ProjectSettings.json
+/.vs/slnx.sqlite
+/Aula 1 - Calculadora/CalculadoraApp/obj/Release/net8.0/CalculadoraApp.AssemblyInfo.cs
+/Aula 1 - Calculadora/CalculadoraApp/obj/Release/net8.0/CalculadoraApp.AssemblyInfoInputs.cache
+/Aula 1 - Calculadora/CalculadoraApp/obj/Release/net8.0/CalculadoraApp.assets.cache
+/Aula 1 - Calculadora/CalculadoraApp/obj/Release/net8.0/CalculadoraApp.GeneratedMSBuildEditorConfig.editorconfig
 /Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/CalculadoraApp.Testes.AssemblyInfo.cs
 /Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/CalculadoraApp.Testes.AssemblyInfoInputs.cache
 /Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/CalculadoraApp.Testes.assets.cache
 /Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/CalculadoraApp.Testes.csproj.AssemblyReference.cache
 /Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/CalculadoraApp.Testes.GeneratedMSBuildEditorConfig.editorconfig
-/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/CalculadoraApp.Testes.sourcelink.json
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Release/net8.0/CalculadoraApp.Testes.AssemblyInfo.cs
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Release/net8.0/CalculadoraApp.Testes.AssemblyInfoInputs.cache
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Release/net8.0/CalculadoraApp.Testes.assets.cache
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Release/net8.0/CalculadoraApp.Testes.csproj.AssemblyReference.cache
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Release/net8.0/CalculadoraApp.Testes.GeneratedMSBuildEditorConfig.editorconfig
+/Aula 1 - Calculadora/.vs/CalculadoraApp/copilot-chat/84baa1f2/sessions
+/Aula 1 - Calculadora/.vs/CalculadoraApp/CopilotIndices/17.14.1231.31060
+/Aula 1 - Calculadora/.vs/CopilotSnapshots/ABD8049C6F67F74C8029ADD8313ACA51
+/Aula 1 - Calculadora/.vs/ProjectEvaluation/calculadoraapp.metadata.v9.bin
+/Aula 1 - Calculadora/.vs/ProjectEvaluation/calculadoraapp.projects.v9.bin
+/Aula 1 - Calculadora/.vs/ProjectEvaluation/calculadoraapp.strings.v9.bin
+/Aula 1 - Calculadora/CalculadoraApp/bin/Debug/net8.0/CalculadoraApp.deps.json
+/Aula 1 - Calculadora/CalculadoraApp/bin/Debug/net8.0/CalculadoraApp.dll
+/Aula 1 - Calculadora/CalculadoraApp/bin/Debug/net8.0/CalculadoraApp.exe
+/Aula 1 - Calculadora/CalculadoraApp/bin/Debug/net8.0/CalculadoraApp.pdb
+/Aula 1 - Calculadora/CalculadoraApp/bin/Debug/net8.0/FluentAssertions.dll
+/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/ref/CalculadoraApp.dll
+/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/apphost.exe
+/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/Calculad.DE631C74.Up2Date
+/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/CalculadoraApp.csproj.AssemblyReference.cache
+/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/CalculadoraApp.csproj.CoreCompileInputs.cache
+/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/CalculadoraApp.csproj.FileListAbsolute.txt
+/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/CalculadoraApp.dll
+/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/CalculadoraApp.genruntimeconfig.cache
+/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/CalculadoraApp.pdb
+/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/CalculadoraApp.sourcelink.json
+/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/refint/CalculadoraApp.dll
+/Aula 1 - Calculadora/CalculadoraApp/obj/Release/net8.0/CalculadoraApp.csproj.AssemblyReference.cache
+/Aula 1 - Calculadora/CalculadoraApp/obj/CalculadoraApp.csproj.nuget.dgspec.json
+/Aula 1 - Calculadora/CalculadoraApp/obj/CalculadoraApp.csproj.nuget.g.props
+/Aula 1 - Calculadora/CalculadoraApp/obj/project.assets.json
+/Aula 1 - Calculadora/CalculadoraApp/obj/project.nuget.cache
+/Aula 1 - Calculadora/CalculadoraApp.Testes/bin/Debug/net8.0/CalculadoraApp.deps.json
+/Aula 1 - Calculadora/CalculadoraApp.Testes/bin/Debug/net8.0/CalculadoraApp.dll
+/Aula 1 - Calculadora/CalculadoraApp.Testes/bin/Debug/net8.0/CalculadoraApp.exe
+/Aula 1 - Calculadora/CalculadoraApp.Testes/bin/Debug/net8.0/CalculadoraApp.pdb
+/Aula 1 - Calculadora/CalculadoraApp.Testes/bin/Debug/net8.0/CalculadoraApp.Testes.deps.json
+/Aula 1 - Calculadora/CalculadoraApp.Testes/bin/Debug/net8.0/CalculadoraApp.Testes.dll
+/Aula 1 - Calculadora/CalculadoraApp.Testes/bin/Debug/net8.0/CalculadoraApp.Testes.pdb
+/Aula 1 - Calculadora/CalculadoraApp.Testes/bin/Debug/net8.0/FluentAssertions.dll
+/Aula 1 - Calculadora/.vs/CalculadoraApp/FileContentIndex/e4e36a8b-174f-4dec-89c0-45f76c8534f6.vsidx
+/Aula 1 - Calculadora/.vs/CalculadoraApp/FileContentIndex/e4f7b714-b1c8-4a20-8759-d10a2339da33.vsidx
+/Aula 1 - Calculadora/.vs/CalculadoraApp/FileContentIndex/ec5d26b1-d623-4697-b491-3aeb31b613a8.vsidx
+/Aula 1 - Calculadora/.vs/CalculadoraApp/DesignTimeBuild/.dtbcache.v2
+/Aula 1 - Calculadora/.vs/CalculadoraApp/v17/.suo
+/Aula 1 - Calculadora/.vs/CalculadoraApp/v17/DocumentLayout.backup.json
+/Aula 1 - Calculadora/.vs/CalculadoraApp/v17/DocumentLayout.json
 /Aula 1 - Calculadora/.vs/CalculadoraApp/v17/TestStore/0/000.testlog
 /Aula 1 - Calculadora/.vs/CalculadoraApp/v17/TestStore/0/testlog.manifest
-/Aula 1 - Calculadora/CalculadoraApp/bin/Debug/net8.0/FluentAssertions.dll
-/Aula 1 - Calculadora/CalculadoraApp.Testes/bin/Debug/net8.0/CoverletSourceRootsMapping_CalculadoraApp.Testes
-/Aula 1 - Calculadora/CalculadoraApp.Testes/bin/Debug/net8.0/FluentAssertions.dll
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/CalculadoraApp.Testes.csproj.nuget.dgspec.json
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/CalculadoraApp.Testes.csproj.CoreCompileInputs.cache
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/CalculadoraApp.Testes.csproj.FileListAbsolute.txt
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/CalculadoraApp.Testes.dll
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/CalculadoraApp.Testes.genruntimeconfig.cache
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/CalculadoraApp.Testes.pdb
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/CalculadoraApp.Testes.sourcelink.json
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/refint/CalculadoraApp.Testes.dll
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/CalculadoraApp.Testes.csproj.nuget.g.props
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/ref/CalculadoraApp.Testes.dll
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/project.assets.json
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/project.nuget.cache
+/Aula 1 - Calculadora/.vs/CalculadoraApp/FileContentIndex/06d17877-dea7-44d6-8746-855febe13892.vsidx
+/Aula 1 - Calculadora/.vs/CalculadoraApp/v17/.futdcache.v2
+/.vs/VSWorkspaceState.json
+/Aula 1 - Calculadora/.vs/CalculadoraApp/v17/.suo
