@@ -1,122 +1,123 @@
-﻿// Programa principal que exibe um menu interativo no console para utilizar os
-// métodos disponíveis da classe `Calculadora` (Somar, Subtrair, Multiplicar, Dividir).
-// Este arquivo adota top-level statements (C# 9+) por simplicidade.
-
-var calc = new Calculadora();
-
-// Lê de forma segura um número de ponto flutuante do console.
-// Repete a solicitação até que o usuário informe um valor válido.
-static double ReadDouble(string prompt)
-{
-    while (true)
-    {
-        Console.Write(prompt);
-        string? input = Console.ReadLine();
-        if (input is null)
-        {
-            // Se a entrada for nula (ex.: EOF), encerra o programa com código de erro.
-            Console.WriteLine("Entrada nula. Encerrando.");
-            Environment.Exit(1);
-        }
-        if (double.TryParse(input, out double value))
-            return value;
-
-        // Mensagem de erro e nova tentativa quando a conversão falha.
-        Console.WriteLine("Entrada inválida. Digite um número válido.");
-    }
-}
-
-// Loop principal do menu. Exibe opções, lê a escolha do usuário e executa
-// a operação correspondente usando a instância `calc` da classe Calculadora.
+﻿// Instancia a calculadora
+Calculadora calc = new Calculadora();
 while (true)
 {
-    Console.WriteLine();
-    Console.WriteLine("--- Menu Calculadora ---");
-    Console.WriteLine("1 - Somar");
-    Console.WriteLine("2 - Subtrair");
-    Console.WriteLine("3 - Multiplicar");
-    Console.WriteLine("4 - Dividir");
-    Console.WriteLine("0 - Sair");
+    // Exibe o menu de opções
+    Console.WriteLine("\n--- Menu Calculadora ---");
+    Console.WriteLine("1. Somar");
+    Console.WriteLine("2. Subtrair");
+    Console.WriteLine("3. Multiplicar");
+    Console.WriteLine("4. Dividir");
+    Console.WriteLine("5. Potência");
+    Console.WriteLine("6. Raiz Quadrada");
+    Console.WriteLine("7. Absoluto");
+    Console.WriteLine("8. Máximo");
+    Console.WriteLine("9. Mínimo");
+    Console.WriteLine("10. MMC");
+    Console.WriteLine("11. MDC");
+    Console.WriteLine("0. Sair");
     Console.Write("Escolha uma opção: ");
-
-    string? escolha = Console.ReadLine();
-
-    // Validação básica da opção: vazio ou nulo é inválido.
-    if (string.IsNullOrWhiteSpace(escolha))
-    {
-        Console.WriteLine("Opção inválida. Tente novamente.");
-        continue;
-    }
-
-    // Caso escolha sair, encerra o loop e finaliza o programa.
-    if (escolha == "0")
-    {
-        Console.WriteLine("Encerrando calculadora...");
-        break;
-    }
-
-    // Converte a opção para inteiro e valida.
-    if (!int.TryParse(escolha, out int opcao))
-    {
-        Console.WriteLine("Opção inválida. Digite o número da opção.");
-        continue;
-    }
-
+    string opcao = Console.ReadLine();
+    if (opcao == "0") break;
     try
     {
-        // Roteamento das opções para os métodos da Calculadora.
+        // Executa a operação escolhida pelo usuário
         switch (opcao)
         {
-            case 1:
-            {
-                // Soma: solicita dois valores e exibe o resultado.
-                double a = ReadDouble("Digite o primeiro número: ");
-                double b = ReadDouble("Digite o segundo número: ");
-                Console.WriteLine($"Resultado: {calc.Somar(a, b)}");
+            case "1":
+                // Soma dois números
+                Console.Write("Digite o primeiro número: ");
+                double a1 = double.Parse(Console.ReadLine());
+                Console.Write("Digite o segundo número: ");
+                double b1 = double.Parse(Console.ReadLine());
+                Console.WriteLine($"Resultado: {calc.Somar(a1, b1)}");
                 break;
-            }
-            case 2:
-            {
-                // Subtração: solicita dois valores e exibe o resultado.
-                double a = ReadDouble("Digite o primeiro número: ");
-                double b = ReadDouble("Digite o segundo número: ");
-                Console.WriteLine($"Resultado: {calc.Subtrair(a, b)}");
+            case "2":
+                // Subtrai dois números
+                Console.Write("Digite o primeiro número: ");
+                double a2 = double.Parse(Console.ReadLine());
+                Console.Write("Digite o segundo número: ");
+                double b2 = double.Parse(Console.ReadLine());
+                Console.WriteLine($"Resultado: {calc.Subtrair(a2, b2)}");
                 break;
-            }
-            case 3:
-            {
-                // Multiplicação: solicita dois valores e exibe o resultado.
-                double a = ReadDouble("Digite o primeiro número: ");
-                double b = ReadDouble("Digite o segundo número: ");
-                Console.WriteLine($"Resultado: {calc.Multiplicar(a, b)}");
+            case "3":
+                // Multiplica dois números
+                Console.Write("Digite o primeiro número: ");
+                double a3 = double.Parse(Console.ReadLine());
+                Console.Write("Digite o segundo número: ");
+                double b3 = double.Parse(Console.ReadLine());
+                Console.WriteLine($"Resultado: {calc.Multiplicar(a3, b3)}");
                 break;
-            }
-            case 4:
-            {
-                // Divisão: trata especificamente a exceção de divisão por zero.
-                double a = ReadDouble("Digite o dividendo: ");
-                double b = ReadDouble("Digite o divisor: ");
-                try
-                {
-                    Console.WriteLine($"Resultado: {calc.Dividir(a, b)}");
-                }
-                catch (DivideByZeroException ex)
-                {
-                    // Mensagem amigável ao usuário quando o divisor é zero.
-                    Console.WriteLine($"Erro: {ex.Message}");
-                }
+            case "4":
+                // Divide dois números
+                Console.Write("Digite o primeiro número: ");
+                double a4 = double.Parse(Console.ReadLine());
+                Console.Write("Digite o segundo número: ");
+                double b4 = double.Parse(Console.ReadLine());
+                Console.WriteLine($"Resultado: {calc.Dividir(a4, b4)}");
                 break;
-            }
+            case "5":
+                // Calcula potência
+                Console.Write("Digite a base: ");
+                double baseNum = double.Parse(Console.ReadLine());
+                Console.Write("Digite o expoente: ");
+                double expoente = double.Parse(Console.ReadLine());
+                Console.WriteLine($"Resultado: {calc.Potencia(baseNum, expoente)}");
+                break;
+            case "6":
+                // Calcula raiz quadrada
+                Console.Write("Digite o número: ");
+                double valorRaiz = double.Parse(Console.ReadLine());
+                Console.WriteLine($"Resultado: {calc.RaizQuadrada(valorRaiz)}");
+                break;
+            case "7":
+                // Calcula valor absoluto
+                Console.Write("Digite o número: ");
+                double valorAbs = double.Parse(Console.ReadLine());
+                Console.WriteLine($"Resultado: {calc.Absoluto(valorAbs)}");
+                break;
+            case "8":
+                // Calcula o máximo entre dois números
+                Console.Write("Digite o primeiro número: ");
+                double a8 = double.Parse(Console.ReadLine());
+                Console.Write("Digite o segundo número: ");
+                double b8 = double.Parse(Console.ReadLine());
+                Console.WriteLine($"Resultado: {calc.Maximo(a8, b8)}");
+                break;
+            case "9":
+                // Calcula o mínimo entre dois números
+                Console.Write("Digite o primeiro número: ");
+                double a9 = double.Parse(Console.ReadLine());
+                Console.Write("Digite o segundo número: ");
+                double b9 = double.Parse(Console.ReadLine());
+                Console.WriteLine($"Resultado: {calc.Minimo(a9, b9)}");
+                break;
+            case "10":
+                // Calcula o MMC entre dois números inteiros
+                Console.Write("Digite o primeiro número inteiro: ");
+                int a10 = int.Parse(Console.ReadLine());
+                Console.Write("Digite o segundo número inteiro: ");
+                int b10 = int.Parse(Console.ReadLine());
+                Console.WriteLine($"Resultado: {calc.Mmc(a10, b10)}");
+                break;
+            case "11":
+                // Calcula o MDC entre dois números inteiros
+                Console.Write("Digite o primeiro número inteiro: ");
+                int a11 = int.Parse(Console.ReadLine());
+                Console.Write("Digite o segundo número inteiro: ");
+                int b11 = int.Parse(Console.ReadLine());
+                Console.WriteLine($"Resultado: {calc.Mdc(a11, b11)}");
+                break;
             default:
-                // Opção não reconhecida pelo menu.
-                Console.WriteLine("Opção inválida. Escolha uma opção válida.");
+                Console.WriteLine("Opção inválida!");
                 break;
         }
     }
     catch (Exception ex)
     {
-        // Tratamento genérico de exceções inesperadas para garantir que
-        // o programa não termine de forma abrupta sem informar o usuário.
-        Console.WriteLine($"Erro inesperado: {ex.Message}");
+        // Exibe mensagem de erro caso ocorra exceção
+        Console.WriteLine($"Erro: {ex.Message}");
     }
 }
+// Mensagem de encerramento
+Console.WriteLine("Encerrando calculadora...");
