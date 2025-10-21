@@ -1,7 +1,4 @@
-﻿using System;
-
-
-// Instancia a calculadora
+﻿// Instancia a calculadora
 Calculadora calc = new Calculadora();
 while (true)
 {
