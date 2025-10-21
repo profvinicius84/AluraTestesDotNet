@@ -1,6 +1,11 @@
 ﻿################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
+/**/bin/
+/**/obj/
+*.user
+*.vs
+.vscode/
 /.vs
 /Aula 1 - Calculadora/.vs
 /Aula 1 - Calculadora/CalculadoraApp/bin
@@ -334,3 +339,6 @@
 /ScreenSound/ScreenSound.Shared.Modelos/obj
 /ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0
 /ScreenSound/.vs/ScreenSound/FileContentIndex/01e82a27-3d17-4276-a00a-246bad6788a7.vsidx
+/ScreenSound/.vs/ProjectEvaluation/screensound.metadata.v9.bin
+/ScreenSound/.vs/ProjectEvaluation/screensound.projects.v9.bin
+/ScreenSound/.vs/ProjectEvaluation/screensound.strings.v9.bin
