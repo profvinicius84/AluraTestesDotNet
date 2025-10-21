@@ -1,5 +1,331 @@
 ﻿################################################################################
-# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
-
+/.vs
+/Aula 1 - Calculadora/.vs
+/Aula 1 - Calculadora/CalculadoraApp/bin
+/Aula 1 - Calculadora/CalculadoraApp/obj
+/Aula 1 - Calculadora/CalculadoraApp.Testes/bin
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj
+/Aula 1 - Calculadora/.vs/CalculadoraApp/DesignTimeBuild/.dtbcache.v2
 /Aula 1 - Calculadora/.vs/CalculadoraApp/v17/.suo
+/Aula 1 - Calculadora/.vs/CalculadoraApp/v17/DocumentLayout.backup.json
+/Aula 1 - Calculadora/.vs/CalculadoraApp/v17/DocumentLayout.json
+/Aula 1 - Calculadora/CalculadoraApp/bin/Debug/net8.0/CalculadoraApp.deps.json
+/Aula 1 - Calculadora/CalculadoraApp/bin/Debug/net8.0/CalculadoraApp.dll
+/Aula 1 - Calculadora/CalculadoraApp/bin/Debug/net8.0/CalculadoraApp.exe
+/Aula 1 - Calculadora/CalculadoraApp/bin/Debug/net8.0/CalculadoraApp.pdb
+/Aula 1 - Calculadora/CalculadoraApp.Testes/CalculadoraTest.cs
+/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/apphost.exe
+/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/ref/CalculadoraApp.dll
+/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/refint/CalculadoraApp.dll
+/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/CalculadoraApp.csproj.CoreCompileInputs.cache
+/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/CalculadoraApp.csproj.FileListAbsolute.txt
+/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/CalculadoraApp.dll
+/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/CalculadoraApp.genruntimeconfig.cache
+/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/CalculadoraApp.pdb
+/Aula 1 - Calculadora/CalculadoraApp.Testes/bin/Debug/net8.0/CalculadoraApp.deps.json
+/Aula 1 - Calculadora/CalculadoraApp.Testes/bin/Debug/net8.0/CalculadoraApp.dll
+/Aula 1 - Calculadora/CalculadoraApp.Testes/bin/Debug/net8.0/CalculadoraApp.exe
+/Aula 1 - Calculadora/CalculadoraApp.Testes/bin/Debug/net8.0/CalculadoraApp.pdb
+/Aula 1 - Calculadora/CalculadoraApp.Testes/bin/Debug/net8.0/CalculadoraApp.Testes.deps.json
+/Aula 1 - Calculadora/CalculadoraApp.Testes/bin/Debug/net8.0/CalculadoraApp.Testes.dll
+/Aula 1 - Calculadora/CalculadoraApp.Testes/bin/Debug/net8.0/CalculadoraApp.Testes.pdb
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/ref/CalculadoraApp.Testes.dll
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/refint/CalculadoraApp.Testes.dll
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/CalculadoraApp.Testes.csproj.nuget.dgspec.json
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/CalculadoraApp.Testes.csproj.nuget.g.props
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/CalculadoraApp.Testes.csproj.CoreCompileInputs.cache
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/CalculadoraApp.Testes.csproj.FileListAbsolute.txt
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/CalculadoraApp.Testes.dll
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/CalculadoraApp.Testes.genruntimeconfig.cache
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/CalculadoraApp.Testes.pdb
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/project.assets.json
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/project.nuget.cache
+/.vs/AluraTestesDotNet/FileContentIndex/505aa3e5-bfae-44e5-bd4d-9216186b0db2.vsidx
+/.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json
+/.vs/AluraTestesDotNet/v17/.wsuo
+/.vs/AluraTestesDotNet/v17/DocumentLayout.backup.json
+/.vs/AluraTestesDotNet/v17/DocumentLayout.json
+/Aula 1 - Calculadora/.vs/CalculadoraApp/v17/DocumentLayout.backup.json
+/Aula 1 - Calculadora/.vs/CalculadoraApp/v17/DocumentLayout.json
+/Aula 1 - Calculadora/.vs/CalculadoraApp/DesignTimeBuild/.dtbcache.v2
+/Aula 1 - Calculadora/CalculadoraApp/bin/Debug/net8.0/CalculadoraApp.deps.json
+/Aula 1 - Calculadora/CalculadoraApp/bin/Debug/net8.0/CalculadoraApp.dll
+/Aula 1 - Calculadora/CalculadoraApp/bin/Debug/net8.0/CalculadoraApp.exe
+/Aula 1 - Calculadora/CalculadoraApp/bin/Debug/net8.0/CalculadoraApp.pdb
+/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/ref/CalculadoraApp.dll
+/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/refint/CalculadoraApp.dll
+/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/apphost.exe
+/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/CalculadoraApp.AssemblyInfo.cs
+/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/CalculadoraApp.AssemblyInfoInputs.cache
+/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/CalculadoraApp.assets.cache
+/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/CalculadoraApp.csproj.AssemblyReference.cache
+/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/CalculadoraApp.csproj.CoreCompileInputs.cache
+/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/CalculadoraApp.csproj.FileListAbsolute.txt
+/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/CalculadoraApp.dll
+/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/CalculadoraApp.GeneratedMSBuildEditorConfig.editorconfig
+/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/CalculadoraApp.genruntimeconfig.cache
+/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/CalculadoraApp.pdb
+/Aula 1 - Calculadora/CalculadoraApp/obj/CalculadoraApp.csproj.nuget.dgspec.json
+/Aula 1 - Calculadora/CalculadoraApp/obj/CalculadoraApp.csproj.nuget.g.props
+/Aula 1 - Calculadora/CalculadoraApp/obj/project.assets.json
+/Aula 1 - Calculadora/CalculadoraApp/obj/project.nuget.cache
+/Aula 1 - Calculadora/CalculadoraApp/obj/Release/net8.0/CalculadoraApp.AssemblyInfo.cs
+/Aula 1 - Calculadora/CalculadoraApp/obj/Release/net8.0/CalculadoraApp.AssemblyInfoInputs.cache
+/Aula 1 - Calculadora/CalculadoraApp/obj/Release/net8.0/CalculadoraApp.assets.cache
+/Aula 1 - Calculadora/CalculadoraApp/obj/Release/net8.0/CalculadoraApp.csproj.AssemblyReference.cache
+/Aula 1 - Calculadora/CalculadoraApp/obj/Release/net8.0/CalculadoraApp.GeneratedMSBuildEditorConfig.editorconfig
+/Aula 1 - Calculadora/CalculadoraApp.Testes/bin/Debug/net8.0/CalculadoraApp.deps.json
+/Aula 1 - Calculadora/CalculadoraApp.Testes/bin/Debug/net8.0/CalculadoraApp.dll
+/Aula 1 - Calculadora/CalculadoraApp.Testes/bin/Debug/net8.0/CalculadoraApp.exe
+/Aula 1 - Calculadora/CalculadoraApp.Testes/bin/Debug/net8.0/CalculadoraApp.pdb
+/Aula 1 - Calculadora/CalculadoraApp.Testes/bin/Debug/net8.0/CalculadoraApp.Testes.deps.json
+/Aula 1 - Calculadora/CalculadoraApp.Testes/bin/Debug/net8.0/CalculadoraApp.Testes.dll
+/Aula 1 - Calculadora/CalculadoraApp.Testes/bin/Debug/net8.0/CalculadoraApp.Testes.pdb
+/Aula 1 - Calculadora/CalculadoraApp.Testes/bin/Debug/net8.0/CoverletSourceRootsMapping_CalculadoraApp.Testes
+/Aula 1 - Calculadora/CalculadoraApp.Testes/bin/Release/net8.0/CoverletSourceRootsMapping_CalculadoraApp.Testes
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/ref/CalculadoraApp.Testes.dll
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/refint/CalculadoraApp.Testes.dll
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/CalculadoraApp.Testes.AssemblyInfo.cs
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/CalculadoraApp.Testes.AssemblyInfoInputs.cache
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/CalculadoraApp.Testes.assets.cache
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/CalculadoraApp.Testes.csproj.AssemblyReference.cache
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/CalculadoraApp.Testes.csproj.CoreCompileInputs.cache
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/CalculadoraApp.Testes.csproj.FileListAbsolute.txt
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/CalculadoraApp.Testes.dll
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/CalculadoraApp.Testes.GeneratedMSBuildEditorConfig.editorconfig
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/CalculadoraApp.Testes.genruntimeconfig.cache
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/CalculadoraApp.Testes.pdb
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/CalculadoraApp.Testes.csproj.nuget.dgspec.json
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/CalculadoraApp.Testes.csproj.nuget.g.props
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/project.assets.json
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/project.nuget.cache
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Release/net8.0/CalculadoraApp.Testes.AssemblyInfo.cs
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Release/net8.0/CalculadoraApp.Testes.AssemblyInfoInputs.cache
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Release/net8.0/CalculadoraApp.Testes.assets.cache
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Release/net8.0/CalculadoraApp.Testes.csproj.AssemblyReference.cache
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Release/net8.0/CalculadoraApp.Testes.GeneratedMSBuildEditorConfig.editorconfig
+/ScreenSound/.vs/ScreenSound/config/applicationhost.config
+/ScreenSound/.vs/ScreenSound/CopilotIndices/17.14.1231.31060
+/ScreenSound/.vs/ScreenSound/CopilotIndices/17.14.1231.31060/CodeChunks.db
+/ScreenSound/.vs/ScreenSound/CopilotIndices/17.14.1231.31060/CodeChunks.db-shm
+/ScreenSound/.vs/ScreenSound/CopilotIndices/17.14.1231.31060/CodeChunks.db-wal
+/ScreenSound/.vs/ScreenSound/CopilotIndices/17.14.1231.31060/SemanticSymbols.db
+/ScreenSound/.vs/ScreenSound/CopilotIndices/17.14.1231.31060/SemanticSymbols.db-shm
+/ScreenSound/.vs/ScreenSound/CopilotIndices/17.14.1231.31060/SemanticSymbols.db-wal
+/ScreenSound/.vs/ScreenSound/FileContentIndex/bb1cc280-0858-4172-974d-323712b1aa60.vsidx
+/ScreenSound/.vs/ScreenSound/v17
+/ScreenSound/.vs/ScreenSound/v17/.suo
+/ScreenSound/.vs/ScreenSound/v17/DocumentLayout.backup.json
+/ScreenSound/.vs/ScreenSound/v17/DocumentLayout.json
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/cs/Microsoft.Data.SqlClient.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/de/Microsoft.Data.SqlClient.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/es
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/es/Microsoft.Data.SqlClient.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/fr
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/fr/Microsoft.Data.SqlClient.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/it
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/it/Microsoft.Data.SqlClient.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/ja
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/ja/Microsoft.Data.SqlClient.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/ko
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/ko/Microsoft.Data.SqlClient.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/pl
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/pl/Microsoft.Data.SqlClient.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/pt-BR
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/pt-BR/Microsoft.Data.SqlClient.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/ru
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/ru/Microsoft.Data.SqlClient.resources.dll
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0/runtimes
+/ScreenSound/ScreenSound.API/bin/Debug/net9.0
+/ScreenSound/ScreenSound.API/obj/Debug/net9.0/ApiEndpoints.json
+/ScreenSound/ScreenSound.API/obj/Debug/net9.0/apphost.exe
+/ScreenSound/ScreenSound.API/obj/Debug/net9.0/rjimswa.dswa.cache.json
+/ScreenSound/ScreenSound.API/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json
+/ScreenSound/ScreenSound.API/obj/Debug/net9.0/rjsmrazor.dswa.cache.json
+/ScreenSound/ScreenSound.API/obj/Debug/net9.0/rpswa.dswa.cache.json
+/ScreenSound/ScreenSound.API/obj/Debug/net9.0/ScreenSo.4C07C99F.Up2Date
+/ScreenSound/ScreenSound.API/obj/Debug/net9.0/ScreenSound.API.AssemblyInfo.cs
+/ScreenSound/ScreenSound.API/obj/Debug/net9.0/ScreenSound.API.AssemblyInfoInputs.cache
+/ScreenSound/ScreenSound.API/obj/Debug/net9.0/ScreenSound.API.assets.cache
+/ScreenSound/ScreenSound.API/obj/Debug/net9.0/ScreenSound.API.csproj.AssemblyReference.cache
+/ScreenSound/ScreenSound.API/obj/Debug/net9.0/ScreenSound.API.csproj.BuildWithSkipAnalyzers
+/ScreenSound/ScreenSound.API/obj/Debug/net9.0/ScreenSound.API.csproj.CoreCompileInputs.cache
+/ScreenSound/ScreenSound.API/obj/Debug/net9.0/ScreenSound.API.csproj.FileListAbsolute.txt
+/ScreenSound/ScreenSound.API/obj/Debug/net9.0/ScreenSound.API.dll
+/ScreenSound/ScreenSound.API/obj/Debug/net9.0/ScreenSound.API.GeneratedMSBuildEditorConfig.editorconfig
+/ScreenSound/ScreenSound.API/obj/Debug/net9.0/ScreenSound.API.genruntimeconfig.cache
+/ScreenSound/ScreenSound.API/obj/Debug/net9.0/ScreenSound.API.MvcApplicationPartsAssemblyInfo.cache
+/ScreenSound/ScreenSound.API/obj/Debug/net9.0/ScreenSound.API.MvcApplicationPartsAssemblyInfo.cs
+/ScreenSound/ScreenSound.API/obj/Debug/net9.0/ScreenSound.API.pdb
+/ScreenSound/ScreenSound.API/obj/Debug/net9.0/ScreenSound.API.sourcelink.json
+/ScreenSound/ScreenSound.API/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/ScreenSound/ScreenSound.API/obj/Debug/net9.0/staticwebassets.build.json
+/ScreenSound/ScreenSound.API/obj/Debug/net9.0/staticwebassets.build.json.cache
+/ScreenSound/ScreenSound.API/obj/Debug/net9.0/staticwebassets.development.json
+/ScreenSound/ScreenSound.API/obj/Debug/net9.0/staticwebassets.references.upToDateCheck.txt
+/ScreenSound/ScreenSound.API/obj/Debug/net9.0/staticwebassets.upToDateCheck.txt
+/ScreenSound/ScreenSound.API/obj/Release/net9.0
+/ScreenSound/ScreenSound.API/obj/Debug/net9.0
+/ScreenSound/ScreenSound.API/obj/project.assets.json
+/ScreenSound/ScreenSound.API/obj/project.nuget.cache
+/ScreenSound/ScreenSound.API/obj/ScreenSound.API.csproj.nuget.dgspec.json
+/ScreenSound/ScreenSound.API/obj/ScreenSound.API.csproj.nuget.g.props
+/ScreenSound/ScreenSound.Shared.Dados/bin/Debug/net9.0
+/ScreenSound/ScreenSound.Shared.Dados/obj/Release/net9.0
+/ScreenSound/ScreenSound.Shared.Dados/obj/project.assets.json
+/ScreenSound/ScreenSound.Shared.Dados/obj/project.nuget.cache
+/ScreenSound/ScreenSound.Shared.Dados/obj/ScreenSound.Shared.Dados.csproj.nuget.dgspec.json
+/ScreenSound/ScreenSound.Shared.Dados/obj/ScreenSound.Shared.Dados.csproj.nuget.g.props
+/ScreenSound/ScreenSound.Shared.Dados/obj/Debug/net9.0/ScreenSo.6D9A23D4.Up2Date
+/ScreenSound/ScreenSound.Shared.Dados/obj/Debug/net9.0/ScreenSound.Shared.Dados.AssemblyInfo.cs
+/ScreenSound/ScreenSound.Shared.Dados/obj/Debug/net9.0/ScreenSound.Shared.Dados.AssemblyInfoInputs.cache
+/ScreenSound/ScreenSound.Shared.Dados/obj/Debug/net9.0/ScreenSound.Shared.Dados.assets.cache
+/ScreenSound/ScreenSound.Shared.Dados/obj/Debug/net9.0/ScreenSound.Shared.Dados.csproj.AssemblyReference.cache
+/ScreenSound/ScreenSound.Shared.Dados/obj/Debug/net9.0/ScreenSound.Shared.Dados.csproj.BuildWithSkipAnalyzers
+/ScreenSound/ScreenSound.Shared.Dados/obj/Debug/net9.0/ScreenSound.Shared.Dados.csproj.CoreCompileInputs.cache
+/ScreenSound/ScreenSound.Shared.Dados/obj/Debug/net9.0/ScreenSound.Shared.Dados.csproj.FileListAbsolute.txt
+/ScreenSound/ScreenSound.Shared.Dados/obj/Debug/net9.0/ScreenSound.Shared.Dados.dll
+/ScreenSound/ScreenSound.Shared.Dados/obj/Debug/net9.0/ScreenSound.Shared.Dados.GeneratedMSBuildEditorConfig.editorconfig
+/ScreenSound/ScreenSound.Shared.Dados/obj/Debug/net9.0/ScreenSound.Shared.Dados.genruntimeconfig.cache
+/ScreenSound/ScreenSound.Shared.Dados/obj/Debug/net9.0/ScreenSound.Shared.Dados.pdb
+/ScreenSound/ScreenSound.Shared.Dados/obj/Debug/net9.0/ScreenSound.Shared.Dados.sourcelink.json
+/ScreenSound/ScreenSound.Shared.Dados/obj/Debug/net9.0
+/ScreenSound/ScreenSound.Shared.Modelos/bin/Debug/net9.0/ScreenSound.Shared.Modelos.deps.json
+/ScreenSound/ScreenSound.Shared.Modelos/bin/Debug/net9.0/ScreenSound.Shared.Modelos.dll
+/ScreenSound/ScreenSound.Shared.Modelos/bin/Debug/net9.0/ScreenSound.Shared.Modelos.pdb
+/ScreenSound/ScreenSound.Shared.Modelos/obj/project.assets.json
+/ScreenSound/ScreenSound.Shared.Modelos/obj/project.nuget.cache
+/ScreenSound/ScreenSound.Shared.Modelos/obj/ScreenSound.Shared.Modelos.csproj.nuget.dgspec.json
+/ScreenSound/ScreenSound.Shared.Modelos/obj/ScreenSound.Shared.Modelos.csproj.nuget.g.props
+/ScreenSound/ScreenSound.Shared.Modelos/obj/Debug/net9.0/ref/ScreenSound.Shared.Modelos.dll
+/ScreenSound/ScreenSound.Shared.Modelos/obj/Debug/net9.0/refint
+/ScreenSound/ScreenSound.Shared.Modelos/obj/Debug/net9.0/ScreenSound.Shared.Modelos.AssemblyInfo.cs
+/ScreenSound/ScreenSound.Shared.Modelos/obj/Debug/net9.0/ScreenSound.Shared.Modelos.AssemblyInfoInputs.cache
+/ScreenSound/ScreenSound.Shared.Modelos/obj/Debug/net9.0/ScreenSound.Shared.Modelos.assets.cache
+/ScreenSound/ScreenSound.Shared.Modelos/obj/Debug/net9.0/ScreenSound.Shared.Modelos.csproj.BuildWithSkipAnalyzers
+/ScreenSound/ScreenSound.Shared.Modelos/obj/Debug/net9.0/ScreenSound.Shared.Modelos.csproj.CoreCompileInputs.cache
+/ScreenSound/ScreenSound.Shared.Modelos/obj/Debug/net9.0/ScreenSound.Shared.Modelos.csproj.FileListAbsolute.txt
+/ScreenSound/ScreenSound.Shared.Modelos/obj/Debug/net9.0/ScreenSound.Shared.Modelos.dll
+/ScreenSound/ScreenSound.Shared.Modelos/obj/Debug/net9.0/ScreenSound.Shared.Modelos.GeneratedMSBuildEditorConfig.editorconfig
+/ScreenSound/ScreenSound.Shared.Modelos/obj/Debug/net9.0/ScreenSound.Shared.Modelos.pdb
+/ScreenSound/ScreenSound.Shared.Modelos/obj/Debug/net9.0/ScreenSound.Shared.Modelos.sourcelink.json
+/ScreenSound/ScreenSound.Shared.Modelos/obj/Release/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs
+/ScreenSound/ScreenSound.Shared.Modelos/obj/Release/net9.0/ScreenSound.Shared.Modelos.AssemblyInfo.cs
+/ScreenSound/ScreenSound.Shared.Modelos/obj/Release/net9.0/ScreenSound.Shared.Modelos.AssemblyInfoInputs.cache
+/ScreenSound/ScreenSound.Shared.Modelos/obj/Release/net9.0/ScreenSound.Shared.Modelos.assets.cache
+/ScreenSound/ScreenSound.Shared.Modelos/obj/Release/net9.0/ScreenSound.Shared.Modelos.GeneratedMSBuildEditorConfig.editorconfig
+/ScreenSound/ScreenSound.Shared.Modelos/obj/Release/net9.0/ScreenSound.Shared.Modelos.GlobalUsings.g.cs
+/ScreenSound/ScreenSound.WebAssembly/bin/Debug/net9.0/cs
+/ScreenSound/ScreenSound.WebAssembly/bin/Debug/net9.0/de
+/ScreenSound/ScreenSound.WebAssembly/bin/Debug/net9.0/es
+/ScreenSound/ScreenSound.WebAssembly/bin/Debug/net9.0/fr
+/ScreenSound/ScreenSound.WebAssembly/bin/Debug/net9.0/it
+/ScreenSound/ScreenSound.WebAssembly/bin/Debug/net9.0/ja
+/ScreenSound/ScreenSound.WebAssembly/bin/Debug/net9.0/ko
+/ScreenSound/ScreenSound.WebAssembly/bin/Debug/net9.0/pl
+/ScreenSound/ScreenSound.WebAssembly/bin/Debug/net9.0/pl/Microsoft.Data.SqlClient.resources.dll
+/ScreenSound/ScreenSound.WebAssembly/bin/Debug/net9.0/pt-BR
+/ScreenSound/ScreenSound.WebAssembly/bin/Debug/net9.0/pt-BR/Microsoft.Data.SqlClient.resources.dll
+/ScreenSound/ScreenSound.WebAssembly/bin/Debug/net9.0/ru
+/ScreenSound/ScreenSound.WebAssembly/bin/Debug/net9.0/ru/Microsoft.Data.SqlClient.resources.dll
+/ScreenSound/ScreenSound.WebAssembly/bin/Debug/net9.0/Azure.Core.dll
+/ScreenSound/ScreenSound.WebAssembly/bin/Debug/net9.0/Azure.Identity.dll
+/ScreenSound/ScreenSound.WebAssembly/bin/Debug/net9.0/Castle.Core.dll
+/ScreenSound/ScreenSound.WebAssembly/bin/Debug/net9.0/dotnet.js
+/ScreenSound/ScreenSound.WebAssembly/bin/Debug/net9.0/tr
+/ScreenSound/ScreenSound.WebAssembly/bin/Debug/net9.0/wwwroot/_framework
+/ScreenSound/ScreenSound.WebAssembly/bin/Debug/net9.0/zh-Hans
+/ScreenSound/ScreenSound.WebAssembly/bin/Debug/net9.0/zh-Hant
+/ScreenSound/ScreenSound.WebAssembly/bin/Debug/net9.0
+/ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/compressed
+/ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/ref
+/ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/refint
+/ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/refint/ScreenSound.WebAssembly.dll
+/ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/scopedcss
+/ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/tmp-webcil
+/ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/webcil
+/ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/blazor.boot.json
+/ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/blazor.build.boot-extension.json
+/ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/rbcswa.dswa.cache.json
+/ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/rjimswa.dswa.cache.json
+/ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json
+/ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/rjsmrazor.dswa.cache.json
+/ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/rpswa.dswa.cache.json
+/ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/ScreenSo.DAF0FBE1.Up2Date
+/ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/ScreenSound.WebAssembly.AssemblyInfo.cs
+/ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/ScreenSound.WebAssembly.AssemblyInfoInputs.cache
+/ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/ScreenSound.WebAssembly.assets.cache
+/ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/ScreenSound.WebAssembly.csproj.AssemblyReference.cache
+/ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/ScreenSound.WebAssembly.csproj.BuildWithSkipAnalyzers
+/ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/ScreenSound.WebAssembly.csproj.CoreCompileInputs.cache
+/ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/ScreenSound.WebAssembly.csproj.FileListAbsolute.txt
+/ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/ScreenSound.WebAssembly.dll
+/ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/ScreenSound.WebAssembly.GeneratedMSBuildEditorConfig.editorconfig
+/ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/ScreenSound.WebAssembly.MvcApplicationPartsAssemblyInfo.cache
+/ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/ScreenSound.WebAssembly.pdb
+/ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/ScreenSound.WebAssembly.sourcelink.json
+/ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/staticwebassets.build.json
+/ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/staticwebassets.build.json.cache
+/ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/staticwebassets.development.json
+/ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/staticwebassets.references.upToDateCheck.txt
+/ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/staticwebassets.upToDateCheck.txt
+/ScreenSound/ScreenSound.WebAssembly/obj/Release/net9.0
+/ScreenSound/ScreenSound.WebAssembly/obj/project.assets.json
+/ScreenSound/ScreenSound.WebAssembly/obj/project.nuget.cache
+/ScreenSound/ScreenSound.WebAssembly/obj/ScreenSound.WebAssembly.csproj.nuget.dgspec.json
+/ScreenSound/ScreenSound.WebAssembly/obj/ScreenSound.WebAssembly.csproj.nuget.g.props
+/ScreenSound/ScreenSound.WebAssembly/obj/ScreenSound.WebAssembly.csproj.nuget.g.targets
