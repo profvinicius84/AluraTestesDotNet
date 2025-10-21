@@ -1,81 +1,9 @@
 ﻿################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
-
-/.vs/AluraTestesDotNet/CopilotIndices/17.14.1231.31060
-/.vs/AluraTestesDotNet/FileContentIndex
-/Aula 1 - Calculadora/CalculadoraApp.Testes/bin/Debug/net8.0/CoverletSourceRootsMapping_CalculadoraApp.Testes
-/Aula 1 - Calculadora/CalculadoraApp.Testes/bin/Release/net8.0/CoverletSourceRootsMapping_CalculadoraApp.Testes
-/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/CalculadoraApp.AssemblyInfo.cs
-/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/CalculadoraApp.AssemblyInfoInputs.cache
-/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/CalculadoraApp.assets.cache
-/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0/CalculadoraApp.GeneratedMSBuildEditorConfig.editorconfig
-/.vs/ProjectSettings.json
-/.vs/slnx.sqlite
-/Aula 1 - Calculadora/CalculadoraApp/obj/Release/net8.0/CalculadoraApp.AssemblyInfo.cs
-/Aula 1 - Calculadora/CalculadoraApp/obj/Release/net8.0/CalculadoraApp.AssemblyInfoInputs.cache
-/Aula 1 - Calculadora/CalculadoraApp/obj/Release/net8.0/CalculadoraApp.assets.cache
-/Aula 1 - Calculadora/CalculadoraApp/obj/Release/net8.0/CalculadoraApp.GeneratedMSBuildEditorConfig.editorconfig
-/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/CalculadoraApp.Testes.AssemblyInfo.cs
-/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/CalculadoraApp.Testes.AssemblyInfoInputs.cache
-/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/CalculadoraApp.Testes.assets.cache
-/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/CalculadoraApp.Testes.csproj.AssemblyReference.cache
-/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0/CalculadoraApp.Testes.GeneratedMSBuildEditorConfig.editorconfig
-/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Release/net8.0/CalculadoraApp.Testes.AssemblyInfo.cs
-/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Release/net8.0/CalculadoraApp.Testes.AssemblyInfoInputs.cache
-/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Release/net8.0/CalculadoraApp.Testes.assets.cache
-/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Release/net8.0/CalculadoraApp.Testes.csproj.AssemblyReference.cache
-/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Release/net8.0/CalculadoraApp.Testes.GeneratedMSBuildEditorConfig.editorconfig
-/Aula 1 - Calculadora/.vs/CalculadoraApp/copilot-chat/84baa1f2/sessions/9c04d8ab-676f-4cf7-8029-add8313aca51
-/Aula 1 - Calculadora/.vs/CalculadoraApp/CopilotIndices/17.14.1231.31060
-/Aula 1 - Calculadora/.vs/CalculadoraApp/CopilotIndices/17.14.1231.31060/CodeChunks.db
-/Aula 1 - Calculadora/.vs/CalculadoraApp/CopilotIndices/17.14.1231.31060/SemanticSymbols.db
-/Aula 1 - Calculadora/.vs/CalculadoraApp/FileContentIndex/06d17877-dea7-44d6-8746-855febe13892.vsidx
-/Aula 1 - Calculadora/.vs/CalculadoraApp/FileContentIndex/ac6c9636-6e09-460a-928c-0b6fe89a22e4.vsidx
-/Aula 1 - Calculadora/.vs/CalculadoraApp/FileContentIndex/ec5d26b1-d623-4697-b491-3aeb31b613a8.vsidx
-/Aula 1 - Calculadora/.vs/CalculadoraApp/v17/TestStore/0
-/Aula 1 - Calculadora/.vs/CalculadoraApp/v17/TestStore/0/000.testlog
-/Aula 1 - Calculadora/.vs/CalculadoraApp/v17/TestStore/0/testlog.manifest
-/Aula 1 - Calculadora/.vs/CopilotSnapshots/ABD8049C6F67F74C8029ADD8313ACA51/1D0ED9275E1C504E90CA3A2ABA9D5735/39726887967C815BA38ED2442C50D73A
-/Aula 1 - Calculadora/.vs/CopilotSnapshots/ABD8049C6F67F74C8029ADD8313ACA51/1D0ED9275E1C504E90CA3A2ABA9D5735/A7BAA8E001EFD7D546EA530F4224958B
-/Aula 1 - Calculadora/.vs/CopilotSnapshots/ABD8049C6F67F74C8029ADD8313ACA51/1D0ED9275E1C504E90CA3A2ABA9D5735/ED521DB7EB0DA7564F15E1CC54404B94
-/Aula 1 - Calculadora/.vs/CopilotSnapshots/ABD8049C6F67F74C8029ADD8313ACA51/71CE7CD19941AC4BB8226398977BCC5A
-/Aula 1 - Calculadora/.vs/CopilotSnapshots/ABD8049C6F67F74C8029ADD8313ACA51/71CE7CD19941AC4BB8226398977BCC5A/68644AE5DB5969251A6C0193608C15BC
-/Aula 1 - Calculadora/.vs/CopilotSnapshots/ABD8049C6F67F74C8029ADD8313ACA51/71CE7CD19941AC4BB8226398977BCC5A/8EF098B56569BD2E02E1B8874AD3B992
-/Aula 1 - Calculadora/.vs/CopilotSnapshots/ABD8049C6F67F74C8029ADD8313ACA51/71CE7CD19941AC4BB8226398977BCC5A/ED521DB7EB0DA7564F15E1CC54404B94
-/Aula 1 - Calculadora/.vs/CopilotSnapshots/ABD8049C6F67F74C8029ADD8313ACA51/8D33BFB3BC816E468E4038C021C8DC68
-/Aula 1 - Calculadora/.vs/CopilotSnapshots/ABD8049C6F67F74C8029ADD8313ACA51/8D33BFB3BC816E468E4038C021C8DC68/612BBB1EB40E953808FAF01DD7E8D9D4
-/Aula 1 - Calculadora/.vs/CopilotSnapshots/ABD8049C6F67F74C8029ADD8313ACA51/8D33BFB3BC816E468E4038C021C8DC68/62783451D479E2F092BD10740192885F
-/Aula 1 - Calculadora/.vs/CopilotSnapshots/ABD8049C6F67F74C8029ADD8313ACA51/8D33BFB3BC816E468E4038C021C8DC68/80E35EA68E9DDB2D148BAFA714B50CD1
-/Aula 1 - Calculadora/.vs/CopilotSnapshots/ABD8049C6F67F74C8029ADD8313ACA51/8D33BFB3BC816E468E4038C021C8DC68/ED521DB7EB0DA7564F15E1CC54404B94
-/Aula 1 - Calculadora/.vs/CopilotSnapshots/ABD8049C6F67F74C8029ADD8313ACA51/8D33BFB3BC816E468E4038C021C8DC68/FDCD6C703A3527AAB7D8B0D1AE614C02
-/Aula 1 - Calculadora/.vs/CopilotSnapshots/ABD8049C6F67F74C8029ADD8313ACA51/8F64332F18029B48B18B495141015B03
-/Aula 1 - Calculadora/.vs/CopilotSnapshots/ABD8049C6F67F74C8029ADD8313ACA51/8F64332F18029B48B18B495141015B03/7AB131DDC5185DA1F1173407A275CE0F
-/Aula 1 - Calculadora/.vs/CopilotSnapshots/ABD8049C6F67F74C8029ADD8313ACA51/8F64332F18029B48B18B495141015B03/80E35EA68E9DDB2D148BAFA714B50CD1
-/Aula 1 - Calculadora/.vs/CopilotSnapshots/ABD8049C6F67F74C8029ADD8313ACA51/8F64332F18029B48B18B495141015B03/D51A83A90A51F63556C427FB3F19D4CD
-/Aula 1 - Calculadora/.vs/CopilotSnapshots/ABD8049C6F67F74C8029ADD8313ACA51/8F64332F18029B48B18B495141015B03/ED521DB7EB0DA7564F15E1CC54404B94
-/Aula 1 - Calculadora/.vs/CopilotSnapshots/ABD8049C6F67F74C8029ADD8313ACA51/99A8E3534F5BED4D9EA8179AC6D4A110
-/Aula 1 - Calculadora/.vs/CopilotSnapshots/ABD8049C6F67F74C8029ADD8313ACA51/99A8E3534F5BED4D9EA8179AC6D4A110/10914A0E6F6F2F79D6F54FE79AC835D9
-/Aula 1 - Calculadora/.vs/CopilotSnapshots/ABD8049C6F67F74C8029ADD8313ACA51/99A8E3534F5BED4D9EA8179AC6D4A110/68D9570AE4E813C98CC7EA12331D13C1
-/Aula 1 - Calculadora/.vs/CopilotSnapshots/ABD8049C6F67F74C8029ADD8313ACA51/99A8E3534F5BED4D9EA8179AC6D4A110/80E35EA68E9DDB2D148BAFA714B50CD1
-/Aula 1 - Calculadora/.vs/CopilotSnapshots/ABD8049C6F67F74C8029ADD8313ACA51/99A8E3534F5BED4D9EA8179AC6D4A110/ED521DB7EB0DA7564F15E1CC54404B94
-/Aula 1 - Calculadora/.vs/CopilotSnapshots/ABD8049C6F67F74C8029ADD8313ACA51/B325E1E3A3BAEA449C5A69B8D8A952CE
-/Aula 1 - Calculadora/.vs/CopilotSnapshots/ABD8049C6F67F74C8029ADD8313ACA51/B325E1E3A3BAEA449C5A69B8D8A952CE/62783451D479E2F092BD10740192885F
-/Aula 1 - Calculadora/.vs/CopilotSnapshots/ABD8049C6F67F74C8029ADD8313ACA51/B325E1E3A3BAEA449C5A69B8D8A952CE/701808326EF5228273FEF1C8FD13845A
-/Aula 1 - Calculadora/.vs/CopilotSnapshots/ABD8049C6F67F74C8029ADD8313ACA51/B325E1E3A3BAEA449C5A69B8D8A952CE/80E35EA68E9DDB2D148BAFA714B50CD1
-/Aula 1 - Calculadora/.vs/CopilotSnapshots/ABD8049C6F67F74C8029ADD8313ACA51/B325E1E3A3BAEA449C5A69B8D8A952CE/ED521DB7EB0DA7564F15E1CC54404B94
-/Aula 1 - Calculadora/.vs/CopilotSnapshots/ABD8049C6F67F74C8029ADD8313ACA51/B325E1E3A3BAEA449C5A69B8D8A952CE/FA708BC55E7F793830990EAFF2696059
-/Aula 1 - Calculadora/.vs/CopilotSnapshots/ABD8049C6F67F74C8029ADD8313ACA51/C5591C5DEB1BA441A44EDC7380C6B955
-/Aula 1 - Calculadora/.vs/CopilotSnapshots/ABD8049C6F67F74C8029ADD8313ACA51/C5591C5DEB1BA441A44EDC7380C6B955/5DB339A5AB20BD94FD5332288D01D0D8
-/Aula 1 - Calculadora/.vs/CopilotSnapshots/ABD8049C6F67F74C8029ADD8313ACA51/C5591C5DEB1BA441A44EDC7380C6B955/ED521DB7EB0DA7564F15E1CC54404B94
-/Aula 1 - Calculadora/.vs/CopilotSnapshots/ABD8049C6F67F74C8029ADD8313ACA51/C5591C5DEB1BA441A44EDC7380C6B955/FA7124166517FABF0D3DC7EAC0EED501
-/Aula 1 - Calculadora/.vs/CopilotSnapshots/ABD8049C6F67F74C8029ADD8313ACA51/state.mpack
-/ScreenSound/ScreenSound.API/obj
-/ScreenSound/ScreenSound.Shared.Dados/obj
-/ScreenSound/ScreenSound.Shared.Modelos/obj
-/ScreenSound/ScreenSound.WebAssembly/obj
-/Aula 1 - Calculadora/CalculadoraApp/bin/Debug/net8.0
-/Aula 1 - Calculadora/CalculadoraApp.Testes/bin/Debug/net8.0
-/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0
-/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0
 /.vs
+/Aula 1 - Calculadora/.vs
+/Aula 1 - Calculadora/CalculadoraApp/bin
+/Aula 1 - Calculadora/CalculadoraApp/obj
+/Aula 1 - Calculadora/CalculadoraApp.Testes/bin
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj
