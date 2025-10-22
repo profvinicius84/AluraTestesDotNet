@@ -20,7 +20,7 @@ jobs:
         working-directory: ScreenSound
 
       - name: Executar Testes
-        run: dotnet test ScreenSound.sln --logger "trx;LogFileName=resultado.trx" --filter Categoria=Integração
+        run: dotnet test ScreenSound.sln --logger "trx;LogFileName=resultado.trx" --filter Categoria=Unitários
         working-directory: ScreenSound
 
       - name: Upload do artefato de resultado dos testes
