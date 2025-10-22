@@ -18,5 +18,13 @@ namespace ScreenSound.Tests.Integracao
 
             conteudo.Should().NotBeNull();
         }
+
+        [Fact]
+        public async Task Get_Artitas_Deve_Retornar_Nao_Autorizado_Para_Acessos_Anonimos()
+        {
+            var httpClient = new HttpClient();
+            var response = await httpClient.GetAsync("http://localhost:5241/artistas");
+            response.StatusCode.Should().Be(System.Net.HttpStatusCode.Unauthorized);
+        }
     }
 }

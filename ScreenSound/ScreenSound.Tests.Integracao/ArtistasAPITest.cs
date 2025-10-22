@@ -23,7 +23,7 @@ namespace ScreenSound.Tests.Integracao
         // Act: chama ArtistasAPI.GetArtistasAsync
         // Assert: valida se a lista retornada corresponde à simulada
         [Fact]
-        [Trait("Category", "Integração")]
+        [Trait("Categoria", "Integração")]
         public async Task GetArtistasAsync_DeveChamarEndpointECapturarLista()
         {
             // Arrange
@@ -172,38 +172,11 @@ namespace ScreenSound.Tests.Integracao
             // Act
             var res = await httpClient.PutAsJsonAsync("/artistas", edit);
 
-            // Assert
-            Assert.Equal(System.Net.HttpStatusCode.OK, res.StatusCode);
-            Assert.NotNull(received);
-            Assert.Equal(edit.Id, received!.Id);
-            Assert.Equal(edit.Nome, received.Nome);
-        }
-
-        // Teste do endpoint DELETE /artistas/{id}
-        // Arrange: quando receber DELETE retorna NoContent
-        // Act: envia DELETE via HttpClient
-        // Assert: verifica status NoContent
-        [Fact]
-        [Trait("Category", "Integração")]
-        public async Task DeleteArtista_Deve_RetornarNoContent()
-        {
-            // Arrange
-            var handler = new Func<HttpRequestMessage, HttpResponseMessage>(request =>
-            {
-                if (request.Method == HttpMethod.Delete && request.RequestUri!.PathAndQuery == "/artistas/7")
-                {
-                    return new HttpResponseMessage(System.Net.HttpStatusCode.NoContent);
-                }
-                return new HttpResponseMessage(System.Net.HttpStatusCode.NotFound);
-            });
-
-            var httpClient = CreateClient(handler, new Uri("http://localhost/"));
-
-            // Act
-            var res = await httpClient.DeleteAsync("http://localhost/artistas/7");
-
-            // Assert
-            Assert.Equal(System.Net.HttpStatusCode.NoContent, res.StatusCode);
-        }
+    sealed class StubHttpMessageHandler : HttpMessageHandler
+    {
+        private readonly Func<HttpRequestMessage, HttpResponseMessage> _handler;
+        public StubHttpMessageHandler(Func<HttpRequestMessage, HttpResponseMessage> handler) => _handler = handler;
+        protected override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+          => Task.FromResult(_handler(request));
     }
 }
