@@ -3,3 +3,22 @@
 ################################################################################
 
 /Aula 1 - Calculadora/.vs/CalculadoraApp/v17/.suo
+/.vs
+/ScreenSound/.vs
+/Aula 1 - Calculadora/.vs
+/ScreenSound/ScreenSound.API/obj/Release/net9.0
+/ScreenSound/ScreenSound.Shared.Dados/obj/Release/net9.0
+/ScreenSound/ScreenSound.Tests.Integracao/bin
+/Aula 1 - Calculadora/CalculadoraApp/bin/Debug/net8.0
+/Aula 1 - Calculadora/CalculadoraApp.Testes/bin/Debug/net8.0
+/Aula 1 - Calculadora/CalculadoraApp.Testes/obj/Debug/net8.0
+/Aula 1 - Calculadora/CalculadoraApp/obj/Debug/net8.0
+/ScreenSound/ScreenSound.Shared.Modelos/obj/Release/net9.0
+/ScreenSound/ScreenSound.Tests.Integracao/obj/Release/net9.0
+/ScreenSound/ScreenSound.Tests.Unitarios/bin
+/ScreenSound/ScreenSound.Tests.Unitarios/obj/Debug/net9.0
+/ScreenSound/ScreenSound.Tests.Unitarios/obj/Release/net9.0
+/ScreenSound/ScreenSound.Tests.Unitarios/obj
+/ScreenSound/ScreenSound.WebAssembly/bin/Debug/net9.0/wwwroot/_framework
+/ScreenSound/ScreenSound.WebAssembly/obj/Debug/net9.0/compressed
+/ScreenSound/ScreenSound.WebAssembly/obj/Release/net9.0
