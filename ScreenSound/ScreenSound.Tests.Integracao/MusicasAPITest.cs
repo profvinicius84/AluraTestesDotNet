@@ -22,7 +22,8 @@ namespace ScreenSound.Tests.Integracao
         // Arrange: simula lista de musicas
         // Act: chama MusicasAPI.GetMusicasAsync
         // Assert: valida a lista
-        [Fact]        
+        [Fact]
+        [Trait("Category", "Integração")]
         public async Task GetMusicasAsync_Deve_ChamarEndpointECapturarLista()
         {
             // Arrange
@@ -70,6 +71,7 @@ namespace ScreenSound.Tests.Integracao
         // Act: request via HttpClient
         // Assert: valida resposta
         [Fact]
+        [Trait("Category", "Integração")]
         public async Task GetMusicaPorNome_Deve_RetornarMusica()
         {
             var musica = new MusicaResponse(5, "SongX", 1, "Art", 1999, null);
@@ -102,6 +104,7 @@ namespace ScreenSound.Tests.Integracao
         // Act: Post via HttpClient
         // Assert: valida corpo
         [Fact]
+        [Trait("Category", "Integração")]
         public async Task PostMusica_Deve_EnviarCorpo()
         {
             ScreenSound.Shared.Modelos.Requests.MusicaRequest? received = null;
@@ -131,6 +134,7 @@ namespace ScreenSound.Tests.Integracao
         // Act: envia PUT
         // Assert: valida corpo recebido
         [Fact]
+        [Trait("Category", "Integração")]
         public async Task PutMusica_Deve_EnviarCorpo()
         {
             ScreenSound.Shared.Modelos.Requests.MusicaRequestEdit? received = null;
@@ -160,6 +164,7 @@ namespace ScreenSound.Tests.Integracao
         // Act: envia DELETE
         // Assert: verifica status
         [Fact]
+        [Trait("Category", "Integração")]
         public async Task DeleteMusica_Deve_RetornarNoContent()
         {
             var handler = new Func<HttpRequestMessage, HttpResponseMessage>(request =>

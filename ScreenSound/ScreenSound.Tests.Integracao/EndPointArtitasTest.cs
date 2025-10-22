@@ -6,6 +6,7 @@ namespace ScreenSound.Tests.Integracao
     public class EndPointArtitasTest
     {
         [Fact]
+        [Trait("Category", "Integração")]
         public async Task GetArtistas_Deve_Retornar_Ok_Mesmo_Sem_Dados()
         {
             var httpClient = new HttpClient();

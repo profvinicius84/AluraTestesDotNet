@@ -23,6 +23,7 @@ namespace ScreenSound.Tests.Integracao
         // Act: chama ArtistasAPI.GetArtistasAsync
         // Assert: valida se a lista retornada corresponde à simulada
         [Fact]
+        [Trait("Category", "Integração")]
         public async Task GetArtistasAsync_DeveChamarEndpointECapturarLista()
         {
             // Arrange
@@ -70,6 +71,7 @@ namespace ScreenSound.Tests.Integracao
         // Act: chama ArtistasAPI.AddArtistaAsync
         // Assert: valida se o corpo recebido corresponde ao objeto enviado
         [Fact]
+        [Trait("Category", "Integração")]
         public async Task AddArtistaAsync_Deve_ChamarEndpointPostEEnviarCorpo()
         {
             // Arrange
@@ -109,6 +111,7 @@ namespace ScreenSound.Tests.Integracao
         // Act: faz GET direto via HttpClient para endpoint por nome
         // Assert: valida se o conteúdo retornado corresponde ao artista simulado
         [Fact]
+        [Trait("Category", "Integração")]
         public async Task GetArtistaPorNome_Deve_RetornarArtista()
         {
             // Arrange
@@ -145,6 +148,7 @@ namespace ScreenSound.Tests.Integracao
         // Act: envia PUT via HttpClient
         // Assert: verifica que corpo enviado contém as alterações
         [Fact]
+        [Trait("Category", "Integração")]
         public async Task PutArtista_Deve_EnviarCorpoEReceberOk()
         {
             // Arrange
@@ -180,6 +184,7 @@ namespace ScreenSound.Tests.Integracao
         // Act: envia DELETE via HttpClient
         // Assert: verifica status NoContent
         [Fact]
+        [Trait("Category", "Integração")]
         public async Task DeleteArtista_Deve_RetornarNoContent()
         {
             // Arrange

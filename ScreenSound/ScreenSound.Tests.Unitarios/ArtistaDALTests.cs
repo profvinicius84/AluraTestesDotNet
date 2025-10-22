@@ -20,6 +20,7 @@ public class ArtistaDALTests
 
     // Verifica se o método Adicionar insere corretamente um artista no contexto
     [Fact]
+    [Trait("Categoria", "Unitário")]
     public void Adicionar_Artista_Deve_AdicionarEntidade()
     {
         var options = CreateOptions();
@@ -34,6 +35,7 @@ public class ArtistaDALTests
 
     // Verifica se o método Listar retorna todos os artistas registrados
     [Fact]
+    [Trait("Categoria", "Unitário")]
     public void Listar_Deve_RetornarTodosArtistas()
     {
         var options = CreateOptions();
@@ -51,6 +53,7 @@ public class ArtistaDALTests
 
     // Verifica se Listar com include carrega a coleção de músicas associadas
     [Fact]
+    [Trait("Categoria", "Unitário")]
     public void ListarComInclude_Deve_CarregarMusicas()
     {
         var options = CreateOptions();
@@ -70,6 +73,7 @@ public class ArtistaDALTests
 
     // Verifica se RecuperarPor encontra o artista esperado pela condição
     [Fact]
+    [Trait("Categoria", "Unitário")]
     public void RecuperarPor_Deve_RetornarArtistaCorrespondente()
     {
         var options = CreateOptions();
@@ -86,6 +90,7 @@ public class ArtistaDALTests
 
     // Verifica se o método Atualizar persiste as alterações realizadas na entidade
     [Fact]
+    [Trait("Categoria", "Unitário")]
     public void Atualizar_Deve_PersistirAlteracoes()
     {
         var options = CreateOptions();
@@ -103,6 +108,7 @@ public class ArtistaDALTests
 
     // Verifica se o método Deletar remove a entidade do contexto
     [Fact]
+    [Trait("Categoria", "Unitário")]
     public void Deletar_Deve_RemoverEntidade()
     {
         var options = CreateOptions();

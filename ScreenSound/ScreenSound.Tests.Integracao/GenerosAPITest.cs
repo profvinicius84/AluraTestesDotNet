@@ -19,6 +19,7 @@ namespace ScreenSound.Tests.Integracao
 
         // Teste do endpoint GET /generos (lista)
         [Fact]
+        [Trait("Category", "Integração")]
         public async Task GetGenerosAsync_Deve_ChamarEndpointECapturarLista()
         {
             var generosEsperados = new List<GeneroResponse>
@@ -66,6 +67,7 @@ namespace ScreenSound.Tests.Integracao
         // Act: envia POST
         // Assert: status OK
         [Fact]
+        [Trait("Category", "Integração")]
         public async Task PostGenero_Deve_RetornarOk()
         {
             var handler = new Func<HttpRequestMessage, HttpResponseMessage>(request =>
@@ -88,6 +90,7 @@ namespace ScreenSound.Tests.Integracao
         // Act: get via HttpClient
         // Assert: valida dados
         [Fact]
+        [Trait("Category", "Integração")]
         public async Task GetGeneroPorNome_Deve_RetornarGenero()
         {
             var genero = new GeneroResponse(11, "GenX", "d");
@@ -116,6 +119,7 @@ namespace ScreenSound.Tests.Integracao
 
         // Teste do endpoint DELETE /generos/{id}
         [Fact]
+        [Trait("Category", "Integração")]
         public async Task DeleteGenero_Deve_RetornarNoContent()
         {
             var handler = new Func<HttpRequestMessage, HttpResponseMessage>(request =>

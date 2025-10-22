@@ -20,6 +20,7 @@ public class MusicaDALTests
 
     // Verifica se o método Adicionar insere corretamente uma música no contexto
     [Fact]
+    [Trait("Categoria", "Unitário")]
     public void Adicionar_Musica_Deve_AdicionarEntidade()
     {
         var options = CreateOptions();
@@ -41,6 +42,7 @@ public class MusicaDALTests
 
     // Verifica se Listar retorna todas as músicas
     [Fact]
+    [Trait("Categoria", "Unitário")]
     public void Listar_Deve_RetornarTodasMusicas()
     {
         var options = CreateOptions();
@@ -59,6 +61,7 @@ public class MusicaDALTests
 
     // Verifica se Listar com include carrega Artista e Genero relacionados
     [Fact]
+    [Trait("Categoria", "Unitário")]
     public void ListarComInclude_Deve_CarregarArtistaEGenero()
     {
         var options = CreateOptions();
@@ -82,6 +85,7 @@ public class MusicaDALTests
 
     // Verifica se RecuperarPor encontra a música pela condição
     [Fact]
+    [Trait("Categoria", "Unitário")]
     public void RecuperarPor_Deve_RetornarMusicaCorrespondente()
     {
         var options = CreateOptions();
@@ -98,6 +102,7 @@ public class MusicaDALTests
 
     // Verifica se Atualizar persiste alteração na música
     [Fact]
+    [Trait("Categoria", "Unitário")]
     public void Atualizar_Deve_PersistirAlteracoes()
     {
         var options = CreateOptions();
@@ -115,6 +120,7 @@ public class MusicaDALTests
 
     // Verifica se Deletar remove a música do contexto
     [Fact]
+    [Trait("Categoria", "Unitário")]
     public void Deletar_Deve_RemoverEntidade()
     {
         var options = CreateOptions();

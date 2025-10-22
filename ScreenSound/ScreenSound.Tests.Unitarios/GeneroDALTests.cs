@@ -20,6 +20,7 @@ public class GeneroDALTests
 
     // Verifica se Adicionar insere corretamente um gênero
     [Fact]
+    [Trait("Categoria", "Unitário")]
     public void Adicionar_Genero_Deve_AdicionarEntidade()
     {
         var options = CreateOptions();
@@ -34,6 +35,7 @@ public class GeneroDALTests
 
     // Verifica se Listar retorna todos os gêneros
     [Fact]
+    [Trait("Categoria", "Unitário")]
     public void Listar_Deve_RetornarTodosGeneros()
     {
         var options = CreateOptions();
@@ -51,6 +53,7 @@ public class GeneroDALTests
 
     // Verifica se Listar com include carrega as músicas relacionadas
     [Fact]
+    [Trait("Categoria", "Unitário")]
     public void ListarComInclude_Deve_CarregarMusicas()
     {
         var options = CreateOptions();
@@ -70,6 +73,7 @@ public class GeneroDALTests
 
     // Verifica se RecuperarPor encontra o gênero pela condição
     [Fact]
+    [Trait("Categoria", "Unitário")]
     public void RecuperarPor_Deve_RetornarGeneroCorrespondente()
     {
         var options = CreateOptions();
@@ -86,6 +90,7 @@ public class GeneroDALTests
 
     // Verifica se Atualizar persiste alteração no gênero
     [Fact]
+    [Trait("Categoria", "Unitário")]
     public void Atualizar_Deve_PersistirAlteracoes()
     {
         var options = CreateOptions();
@@ -103,6 +108,7 @@ public class GeneroDALTests
 
     // Verifica se Deletar remove o gênero do contexto
     [Fact]
+    [Trait("Categoria", "Unitário")]
     public void Deletar_Deve_RemoverEntidade()
     {
         var options = CreateOptions();
