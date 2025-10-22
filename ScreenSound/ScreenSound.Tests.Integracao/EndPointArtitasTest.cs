@@ -1,15 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using FluentAssertions;
+﻿using FluentAssertions;
 
 namespace ScreenSound.Tests.Integracao
 {
+    [Trait("Categoria", "Integração")]
     public class EndPointArtitasTest
     {
         [Fact]
+        [Trait("Category", "Integração")]
         public async Task GetArtistas_Deve_Retornar_Ok_Mesmo_Sem_Dados()
         {
             var httpClient = new HttpClient();

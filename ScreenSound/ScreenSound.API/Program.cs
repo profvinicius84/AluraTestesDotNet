@@ -4,7 +4,6 @@ using Microsoft.Extensions.Options;
 using ScreenSound.API.Endpoints;
 using ScreenSound.Banco;
 using ScreenSound.Modelos;
-using ScreenSound.Shared.Modelos.Modelos;
 using System.Data.SqlTypes;
 using System.Text.Json.Serialization;
 
@@ -23,7 +22,7 @@ builder.Services.AddTransient<DAL<Genero>>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.Configure<Microsoft.AspNetCore.Http.Json.JsonOptions>(options => options.SerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
+builder.Services.Configure<Microsoft.AspNetCore.Http.Json.JsonOptions>(options => options.SerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles);
 builder.Services.AddCors();
 var app = builder.Build();
 
