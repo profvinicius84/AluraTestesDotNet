@@ -6,6 +6,7 @@ using ScreenSound.WebAssembly.Services;
 
 namespace ScreenSound.Tests.Integracao
 {
+    [Trait("Category", "Integração")]
     public class MusicasAPITest
     {
         private static HttpClient CreateClient(Func<HttpRequestMessage, HttpResponseMessage> handler, Uri? baseAddress = null)
@@ -21,7 +22,7 @@ namespace ScreenSound.Tests.Integracao
         // Arrange: simula lista de musicas
         // Act: chama MusicasAPI.GetMusicasAsync
         // Assert: valida a lista
-        [Fact]
+        [Fact]        
         public async Task GetMusicasAsync_Deve_ChamarEndpointECapturarLista()
         {
             // Arrange

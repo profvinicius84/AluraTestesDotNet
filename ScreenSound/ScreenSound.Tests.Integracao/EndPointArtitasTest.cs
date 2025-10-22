@@ -2,6 +2,7 @@
 
 namespace ScreenSound.Tests.Integracao
 {
+    [Trait("Categoria", "Integração")]
     public class EndPointArtitasTest
     {
         [Fact]

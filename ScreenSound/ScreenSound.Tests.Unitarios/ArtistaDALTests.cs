@@ -7,6 +7,7 @@ namespace ScreenSound.Tests.Unitarios;
 
 // Testes unitários para a classe DAL<Artista>
 // Cada teste é independente e cobre um único método do DAL
+[Trait("Categoria", "Unitário")]
 public class ArtistaDALTests
 {
     private DbContextOptions<ScreenSoundContext> CreateOptions()

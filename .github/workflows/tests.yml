@@ -30,7 +30,7 @@ jobs:
           path: ScreenSound/ScreenSound.Tests.Integracao/TestResults/resultado.trx
 
       - name: Executar testes e gerar cobertura
-        run: dotnet test ScreenSound.sln --collect:"XPlat Code Coverage" --filter Categoria=Integração
+        run: dotnet test ScreenSound.sln --collect:"XPlat Code Coverage"
         working-directory: ScreenSound
 
       - name: Listar arquivos de cobertura

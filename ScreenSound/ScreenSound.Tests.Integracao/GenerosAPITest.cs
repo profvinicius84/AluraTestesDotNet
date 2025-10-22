@@ -5,6 +5,7 @@ using ScreenSound.Shared.Modelos.Response;
 
 namespace ScreenSound.Tests.Integracao
 {
+    [Trait("Categoria", "Integração")]
     public class GenerosAPITest
     {
         private static HttpClient CreateClient(Func<HttpRequestMessage, HttpResponseMessage> handler, Uri? baseAddress = null)
